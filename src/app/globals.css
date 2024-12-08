@@ -1,21 +1,349 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.bg-home{
+position: absolute;
+width: 1440px;
+height: 663px;
+left: 0px;
+top: 134px;
+background: center;
+background: url('/bg-home.png'), #F2F0F1;
+}
+.index1{
+   /* FIND CLOTHES THAT MATCHES YOUR STYLE */
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+position: absolute;
+width: 577px;
+height: 173px;
+left: 100px;
+top: 237px;
+
+font-family: 'Integral CF';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+.index2{
+    /* Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style. */
+
+position: absolute;
+width: 545px;
+height: 33px;
+left: 100px;
+top: 442px;
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: rgba(0, 0, 0, 0.6);
+
+}
+.shop-Button{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 54px;
+gap: 12px;
+
+position: absolute;
+width: 210px;
+height: 52px;
+left: 100px;
+top: 507px;
+color: white;
+background: #000000;
+border-radius: 62px;
+
+
+}
+.vector1{
+/* Vector */
+
+position: absolute;
+left: 87.15%;
+right: 5.62%;
+top: 5.03%;
+bottom: 92.59%;
+
+}
+.vector2{
+   /* Vector */
+
+position: absolute;
+left: 52.08%;
+right: 44.03%;
+top: 30.86%;
+bottom: 88.86%;
+height:40px;
+width: 40px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.brand-list{
+    /* NEW ARRIVALS */
+font-family: 'Integral CF';
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+display: flex;
+align-items: center;
+position: absolute;
+width: 1440px;
+height: 122px;
+top: 797px;
+background: #000000;
+gap:40px;
+padding-left: 130px;
+color: white;
+list-style: none;
 }
+.new-arrivals{
+    /* NEW ARRIVALS */
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+width: 403px;
+height: 58px;
+left: calc(50% - 403px/2 - 0.5px);
+top: 991px;
+
+font-family: 'Integral CF';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+.product1{
+    /* Frame 1 */
+
+position: absolute;
+width: 295px;
+height: 298px;
+left: 100px;
+top: 1104px;
+
+background: #F0EEED;
+border-radius: 20px;
+}
+.product1Detail{
+    /* Frame 1 detail */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 13px;
+
+position: absolute;
+width: 150px;
+height: 19px;
+left: 100px;
+top: 1453px;
+}
+.product-1-price{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 55px;
+height: 32px;
+left: 100px;
+top: 1480px;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+}
+.product2{
+    /* Frame 2 */
+
+position: absolute;
+width: 295px;
+height: 298px;
+left: 415px;
+top: 1104px;
+
+background: #F0EEED;
+border-radius: 20px;
+}
+.product2Detail{
+    /* Frame 2 details */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 13px;
+
+position: absolute;
+width: 126.2px;
+height: 19px;
+left: 415px;
+top: 1453px;
+}
+.product-2-price{
+/* Frame 59 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 200px;
+height: 32px;
+left: 415px;
+top: 1480px;
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+color: #000000;
+}
+.product3{
+    /* 
+    Frame 3 */
+
+position: absolute;
+width: 295px;
+height: 298px;
+left: 730px;
+top: 1104px;
+
+background: #F0EEED;
+border-radius: 20px;
+}
+.product3Detail{
+    /* Frame 3 details */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 13px;
+
+position: absolute;
+width: 150px;
+height: 19px;
+left: 730px;
+top: 1453px;
+}
+.product-3-price{
+    /* $180 */
+
+position: absolute;
+width: 56px;
+height: 32px;
+left: 730px;
+top: 1480px;
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.product4{
+    /* Frame 4 */
+
+position: absolute;
+width: 295px;
+height: 298px;
+left: 1045px;
+top: 1104px;
+
+background: #F0EEED;
+border-radius: 20px;
+
+}
+.product4Detail{
+    /* Frame 4 details */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 13px;
+
+position: absolute;
+width: 150px;
+height: 19px;
+left: 1045px;
+top: 1453px;
+
+
+}
+.product-4-price{
+/* Frame 44 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+position: absolute;
+width: 189px;
+height: 32px;
+left: 1045px;
+top: 1480px;
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #000000;
+}
+.view-button{
+    /* Frame 28 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 54px;
+gap: 12px;
+
+position: absolute;
+width: 218px;
+height: 52px;
+left: calc(50% - 218px/2);
+top: 1548px;
+
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 62px;
+
 }
