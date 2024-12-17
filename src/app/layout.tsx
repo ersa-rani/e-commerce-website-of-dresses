@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { IoIosArrowDown } from "react-icons/io";
-import { IoSearchSharp } from "react-icons/io5";
-import { PiShoppingCartSimple } from "react-icons/pi";
+
 import { GrUserManager } from "react-icons/gr";
 
 const geistSans = localFont({
@@ -32,66 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="w-[1240px] h-[41px] flex items-center absolute top-[62px] left-[100px] gap-[40px]">
-  <div className="w-[160px] h-[22px]">
-    <p className="font-integral-cf text-[32px] font-extrabold leading-[38.4px] text-left decoration-slice">
-      SHOP.CO
-    </p>
-  </div>
-  
-
-  <div className="flex items-center gap-[10px]">
-    <div className="w-[37px] h-[22px]">
-      <p className="font-satoshi text-[16px] font-normal leading-[21.6px] text-left text-decoration-skip-ink-none">
-        Shop
-      </p>
-    </div>
-    <div className="w-[11.5px] h-[6.5px]">
-      < IoIosArrowDown />
-    </div>
-  </div>
-
- 
-  <div className="w-[20px] h-[22px]">
-    <p className="font-satoshi text-[16px] font-normal leading-[21.6px] whitespace-nowrap decoration-slice">
-      On Sale
-    </p>
-  </div>
-
-
-  <div className="w-[87px] h-[22px]">
-    <p className="font-satoshi text-[16px] font-normal leading-[21.6px] whitespace-nowrap ">
-      New Arrivals
-    </p>
-  </div>
-
- 
-  <div className="w-[49px] h-[22px]">
-    <p className="font-satoshi text-[16px] font-normal leading-[21.6px] text-left">
-      Brands
-    </p>
-  </div> 
-
-  
-
-  <div className="w-[520px] h-[48px] p-[12px_16px] gap-[12px] bg-[rgba(240,240,240,1)] rounded-full flex items-center">
-  < IoSearchSharp className="w-[20.27px] h-[20.27px] mr-[8px]" />
-  <input 
-    type="text" 
-    placeholder="Search for products..." 
-    className="w-[151px] h-[22px] font-satoshi text-[16px] font-normal leading-[21.6px] text-[rgba(0,0,0,0.4)] bg-[rgba(240,240,240,1)]"
-  />
-</div>
-<div className="h-1000px w-1000px gap-[10px]">
-    <div className="w-[24px] h-[24px] gap-[14px] flex">
-<PiShoppingCartSimple
-/>
-</div>
-</div>
-
-
-</div>
-
+        
         {children}
       </body>
     </html>
